@@ -1,0 +1,266 @@
+/* ################## GENERAL #################### */
+body{
+  background-color: #69d0df;
+}
+h1{
+  color: #071a75;
+  margin-left: 4%;
+  font-family: Copperplate Gothic Light;
+}
+h2{
+  color: white;
+  font-family: calibri;
+  font-size: 30px;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+h3{
+  color: white;
+  font-family: calibri;
+  text-align: right;
+  font-size: 20px;
+  margin-right: 1px;
+}
+h4{
+  color: white;
+  font-family: calibri;
+  font-size: 18px;
+  margin-left: 2%;
+}
+h5{
+  color: white;
+  font-family: calibri;
+  font-size: 10px;
+  margin-left: 2%;
+}
+
+/* ################## HEADER #################### */
+header{
+  background-color: rgba(255,255,255,0.6);
+  border: 1px black solid;
+  border-radius: 5px;
+}
+#logo{
+width: 800px;
+height: 80px;
+margin-top: 1%;
+margin-left: 1%;
+}
+
+/* ################## NAVEGADOR #################### */
+#boton{
+  color: white;
+  background-color: #05699a;
+  border: 1px #000000 solid;
+  font-family: calibri;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  margin-right: 3%;
+  margin-top: 10px;
+  float: right;
+  display: inline-block;
+}
+
+/* ################## BODY #################### */
+.menu{
+  color: white;
+  width: 200px;
+  height: 30px;
+  background-color: #05699a;
+  border: 1px #000000 solid;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 2%;
+}
+#recursos{
+    margin-left: 2%;
+    float: left;
+}
+#formulario{
+  border-radius: 5px;
+  margin-right: 10%;
+  float:right;
+}
+#formulario1, #formulario2, #formulario3, #formulario4, #formulario5, #formulario6, #formulario7, #formulario8, #formulario9{
+  display: none;
+}
+#formulario1 table{
+  border:black solid 1px;
+  border-radius: 5px;
+  background-color: #05699a;
+  margin-right: 250px;
+}
+#formulario1 th, td{
+  text-align: center;
+  padding:10px;
+}
+#formulario2 table{
+  border:black solid 1px;
+  border-radius: 5px;
+  background-color: #05699a;
+  margin-right: 250px;
+}
+#formulario2 th, td{
+  text-align: center;
+  padding:10px;
+}
+#formulario3 table{
+  border:black solid 1px;
+  border-radius: 5px;
+  background-color: #05699a;
+  margin-right: 250px;
+}
+#formulario3 th, td{
+  text-align: center;
+  padding:10px;
+}
+#formulario4 table{
+  border:black solid 1px;
+  border-radius: 5px;
+  background-color: #05699a;
+  margin-right: 250px;
+}
+#formulario4 th, td{
+  text-align: center;
+  padding:10px;
+}
+#formulario5 table{
+  border:black solid 1px;
+  border-radius: 5px;
+  background-color: #05699a;
+  margin-right: 250px;
+}
+#formulario5 th, td{
+  text-align: center;
+  padding:10px;
+}
+#formulario6 table{
+  border:black solid 1px;
+  border-radius: 5px;
+  background-color: #05699a;
+  margin-right: 250px;
+}
+#formulario6 th, td{
+  text-align: center;
+  padding:10px;
+}
+#formulario7 table{
+  border:black solid 1px;
+  border-radius: 5px;
+  background-color: #05699a;
+  margin-right: 250px;
+}
+#formulario7 th, td{
+  text-align: center;
+  padding:10px;
+}
+#formulario8 table{
+  border:black solid 1px;
+  border-radius: 5px;
+  background-color: #05699a;
+  margin-right: 250px;
+}
+#formulario8 th, td{
+  text-align: center;
+  padding:10px;
+}
+#formulario9 table{
+  border:black solid 1px;
+  border-radius: 5px;
+  background-color: #05699a;
+  margin-right: 185px;
+}
+#formulario9 th, td{
+  text-align: center;
+  padding:10px;
+}
+#fotoCole img{
+  border-radius: 5px;
+  width:650px;
+  border: black solid 1px;
+  margin-right: 200px;
+  display: inline-block;
+}
+#usuarios table{
+  margin-right: 300px;
+  background-color: #05699a;
+  border-radius: 5px;
+  padding: 6px;
+}
+#usuarios th, td{
+  border: 1px black solid;
+  border-radius: 5px;
+  background-color: white;
+}
+#usuarios button{
+  margin-top: 10px;
+  width: 70px;
+  height:30px;
+  background-color: #05699a;
+  border-radius: 5px;
+  border: 1px black solid;
+}
+#usuarios button,a,i{
+  color:black;
+}
+#formulario1 button, #formulario2 button, #formulario3 button, #formulario4 button, #formulario5 button, #formulario6 button, #formulario7 button, #formulario8 button, #formulario9 button{
+  margin-top: 10px;
+  width: 70px;
+  height:30px;
+  background-color: #05699a;
+  border-radius: 5px;
+  border: 1px black solid;
+}
+#formulario1 i, #formulario2 i, #formulario3 i, #formulario4 i, #formulario5 i, #formulario6 i, #formulario7 i, #formulario8 i, #formulario9 i{
+  color:black;
+}
+
+/* ################## FOOTER #################### */
+footer{
+  background-image: url('img/footer.png');
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top:430px;
+}
+#spe{
+  color: white;
+  font-family: calibri;
+  font-size: 18px;
+  text-align: right;
+  margin-top: -11%;
+  margin-right: 40px;
+}
+#info{
+  color: white;
+  font-family: calibri;
+  font-size: 18px;
+  margin-left: 60%;
+  position: right;
+  margin-top: -4%;
+}
+
+/* ################## COSAS #################### */
+#modifuser{
+  border:1px black solid;
+  border-radius: 5px;
+  margin-right: 500px;
+  padding: 10px;
+  font-family: calibri;
+  background-color: #05699a;
+}
+#modifuser input{
+  border-radius: 5px;
+}
+#afegirUser{
+  border:1px black solid;
+  border-radius: 5px;
+  margin-right: 500px;
+  padding: 10px;
+  font-family: calibri;
+  background-color: #05699a;
+}
+#afegirUser input{
+  border-radius: 5px;
+}

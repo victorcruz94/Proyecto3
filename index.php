@@ -47,8 +47,8 @@ error_reporting(E_ALL^E_NOTICE);
     			<form action="entrar.php" method="post" onsubmit="return validarForm(this);" >
     				<b>Identificació de usuari:</b><br/><br/>
         			<!--<input type="text" placeholder="Correo electronico..." name="correo" id="texto"/><br />-->
-					<input type="text" placeholder="Nom usuari..." name="usuari" id="rec" required/></br><br>
-        			<input type="password" placeholder="Clau accés..." name="clave" id="rec" required/></br><br>
+					<input type="text" placeholder="Nom usuari..." name="usuari" id="usuari" required/></br><br>
+        			<input type="password" placeholder="Clau accés..." name="clave" id="clave" required/></br><br>
         			<input type="submit" name="submit" value="Entrar" id="boton">
 					<input type="reset" value="Borrar" id="boton">
         		</form>
